@@ -143,6 +143,18 @@ main {
   color: #a8b0c2;
 }
 
+.link {
+  color: #92b5ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: #d2e2ff;
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .page-wrap {
     padding: 28px 18px 48px;
